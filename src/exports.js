@@ -1,27 +1,49 @@
-import logo from './assets/20240309_211246.png'
-import texeture from './assets/shape-bg.png'
-import bat from './assets/nav-bat.png'
-import stars from './assets/stars.png'
-import homePumpkin from './assets/home-pumpkin.png'
-import tree2 from './assets/home-tree1.png'
-import tree1 from './assets/home-tree2.png'
-import categoryPumpkin from './assets/category-pumpkin.png'
-import witchHat from './assets/item-witch-hat.png'
-import gohst from './assets/category-ghost.png'
-import scareCrow from './assets/about-scare.png'
-import itemApple from './assets/item-apple.png'
-import itemBroom from './assets/item-broom.png'
-import itemPumpkin from './assets/item-pumpkin.png'
-import itemSpider from './assets/item-spider.png'
-import itemHat from './assets/item-witch-hat.png'
-import cauldron from './assets/party-cauldron.png'
-import HalloweenTunes from './assets/Halloween tunes.mp3'
-import footerTree1 from './assets/footer-tree1.png'
-import footerTree2 from './assets/footer-tree2.png'
-import skull from './assets/logo-skull.png'
-import wave1 from './assets/audio-wave-white.svg'
-import wave2 from './assets/audio-wave-orange.svg'
+import HalloweenTunes from "./assets/Halloween tunes.mp3";
+import scareCrow from "./assets/about-scare.png";
+import wave2 from "./assets/audio-wave-orange.svg";
+import wave1 from "./assets/audio-wave-white.svg";
+import gohst from "./assets/category-ghost.png";
+import categoryPumpkin from "./assets/category-pumpkin.png";
+import footerTree1 from "./assets/footer-tree1.png";
+import footerTree2 from "./assets/footer-tree2.png";
+import homePumpkin from "./assets/home-pumpkin.png";
+import tree2 from "./assets/home-tree1.png";
+import tree1 from "./assets/home-tree2.png";
+import itemApple from "./assets/item-apple.png";
+import itemBroom from "./assets/item-broom.png";
+import itemPumpkin from "./assets/item-pumpkin.png";
+import itemSpider from "./assets/item-spider.png";
+import {
+  default as itemHat,
+  default as witchHat,
+} from "./assets/item-witch-hat.png";
+import skull from "./assets/logo-skull.png";
+import bat from "./assets/nav-bat.png";
+import cauldron from "./assets/party-cauldron.png";
+import texeture from "./assets/shape-bg.png";
+import stars from "./assets/stars.png";
 
-export {logo, texeture, bat, stars, homePumpkin, tree1, tree2, 
-categoryPumpkin, witchHat, gohst, scareCrow, itemApple, itemBroom, 
-itemPumpkin, itemSpider, itemHat, cauldron, HalloweenTunes, footerTree1, footerTree2, skull, wave1, wave2}
+export {
+  bat,
+  categoryPumpkin,
+  cauldron,
+  footerTree1,
+  footerTree2,
+  gohst,
+  HalloweenTunes,
+  homePumpkin,
+  itemApple,
+  itemBroom,
+  itemHat,
+  itemPumpkin,
+  itemSpider,
+  scareCrow,
+  skull,
+  stars,
+  texeture,
+  tree1,
+  tree2,
+  wave1,
+  wave2,
+  witchHat,
+};

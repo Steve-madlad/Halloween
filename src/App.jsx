@@ -67,7 +67,7 @@ function App() {
   })
 
   useEffect(() => {
-    ScrollReveal().reveal('.home__data, .footer__content, .footer__logo, .footer__description')
+    ScrollReveal().reveal('.home__data, .footer__content, .footer__logo, .footer__description, .footer_logo')
     ScrollReveal().reveal('.logo', { origin: 'top', delay: 500 })
     ScrollReveal().reveal('.home__tree-1', { origin: 'left', delay: 500 })
     ScrollReveal().reveal('.home__tree-2', { origin: 'right', delay: 500 })
@@ -82,12 +82,12 @@ function App() {
     <div>
       <img src={texeture} alt="" className='shape__bg' />
 
-      <img src="/logo.png" className='logo' alt="logo image" />
+      <img src="/logo.webp" className='logo' alt="logo image" />
       {/* <!--==================== HEADER ====================--> */}
       <header className={`header ${scrolled && 'bg-header'}`} id="header">
         <nav className={`nav container ${scrolled && 'separate'}`}>
           <a href="#" className={`${!scrolled && 'hidden'} nav__logo`}>
-            <img src="/logo.png" alt="logo image" />
+            <img src="/logo.webp" alt="logo image" />
             <p>The Midnight Graveyard</p>
           </a>
 
@@ -212,7 +212,7 @@ function App() {
       <footer className="footer section">
         <div className="shape__small"></div>
         <div className="shape__big"></div>
-        <div className="footer__container container grid">
+        <div className="footer__container ft_main container grid">
           <div>
             <a href="#" className="footer__logo">
               <img src={skull} alt="logo image" />
@@ -241,7 +241,10 @@ function App() {
           <img src={footerTree1} alt="footer image" className='footer__tree-1' />
           <img src={footerTree2} alt="footer image" className='footer__tree-2' />
         </div>
-        <span className="footer__copy">&copy; Copyright SteveBro. All rights reserved</span>
+        <div>
+           <img src="/logo.webp" className='footer_logo' alt="logo image" />
+          <span className="footer__copy">&copy; Copyright SteveBro. All rights reserved</span>
+        </div>
       </footer>
 
       {/* <!--========== SCROLL UP ==========--> */}
